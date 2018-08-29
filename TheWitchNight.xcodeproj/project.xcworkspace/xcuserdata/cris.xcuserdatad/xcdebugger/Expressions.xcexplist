@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Battle.showSpellCards():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curRole._unit">
+            </PersistentString>
+            <PersistentString
+               value = "s._timeleft">
+            </PersistentString>
+            <PersistentString
+               value = "s._name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MinionPanel.create(minion:):MinionPanel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Battle.setEvilPos(unit:):Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_emptyPos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShootAll.selectable():ShootAll.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_battle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Stage.calFaceDirection(_:_:):Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_scene.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIStage.touchesBegan(_:with:):UIStage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curScene.position.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewComersVillage.create():NewComersVillage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance.village">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomScene.createTouchableItems():RandomScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "xSize">
+            </PersistentString>
+            <PersistentString
+               value = "ySize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Battle.targetAttacked():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "this._selectedTarget._seat">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIScene.addItem(x:item:):UIScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.createBackground():ArmorPanel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MinionComponent.touchesBegan(_:with:):MinionsList.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_minion._seat">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Outfit.createSelfAttrs():Outfit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_selfAttrs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharListPanel.touchesBegan(_:with:):CharListPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_item._count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Stage.touchItem():Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "distanceOfPoints(CGPoint(x:0, y:0), _dest)">
+            </PersistentString>
+            <PersistentString
+               value = "_scene._matrix">
+            </PersistentString>
+            <PersistentString
+               value = "_scene._ground.position">
+            </PersistentString>
+            <PersistentString
+               value = "_dest">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Battle.moveBack(unit:):Battle.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Scenery.createMovingEvils():Scenery.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "evil._img">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIRandomScene.create():UIRandomScene.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.create(isChief:):BUnit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_charNode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomScene.addDoors():RandomScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_matrix">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SKSpriteNode.toTop(_:):exts.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "size()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TurnMagic.cast(completion:):TurnMagic.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "t._status">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIStage.addStatus(status:):UIStage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curScene._status">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SKSpriteNode.cellSize.getter:exts.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance.cellSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.weaponOn(w:):ArmorPanel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Scenery.getWeight(_:_:):Scenery.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_matrix">
+            </PersistentString>
+            <PersistentString
+               value = "matrix[y][x]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpellInfo.create(spell:):SpellPanel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DealingPanel.touchesBegan(_:with:):DealingPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pc.prop._price">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BlackCat.init():BlackCat.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Battle.showAvailableUnits():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_selectedSpell">
+            </PersistentString>
+            <PersistentString
+               value = "_right">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.calcSpeedLine():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "unit.getSpeed()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Attack.cast(completion:):Attack.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in UIStage.move():UIStage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "this._curScene.curX">
+            </PersistentString>
+            <PersistentString
+               value = "this._curScene.xSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Attack.findTarget(unitIn:):Attack.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_battle._curRole._unit._weapon">
+            </PersistentString>
+            <PersistentString
+               value = "_battle._curRole._unit">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.moveStart():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curRole">
+            </PersistentString>
+            <PersistentString
+               value = "_roleAll">
+            </PersistentString>
+            <PersistentString
+               value = "Data.instance._char">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Stage.next():Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_scene.getWeight(cx, cy + 1)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.touchesBegan(_:with:):ItemPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_lastListComponent.prop ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Spell.findTarget(inleft:):Spell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_battle._rightRoles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Meadow.getEvil():Meadow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "uie._evils">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MultipleLabel.text.setter:Label.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RandomScene.addItems(_:_:):RandomScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.zPosition">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SKSpriteNode.top.setter:exts.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "yOriginal">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Interchange.cast(completion:):Interchange.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "b._left">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Spell.findTarget(unitIn:):Spell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_battle._selectedTarget">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Scenery.toArrayXByPositionX(_:):Scenery.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIEvil.triggerEvent():UIEvil.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Stage.charInScene():Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_scene.position.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Battle.execOrder():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "this._selectedSpell">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Meadow.init(texture:color:size:):Meadow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "oa4.size()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PropComponent.selected.setter:ArmorPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_bg">
+            </PersistentString>
+            <PersistentString
+               value = "_prop">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ThunderArray.cast(completion:):ThunderArray.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_battle._rightRoles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.getAttack(t:):BUnit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_stage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Scenery.addItemNode(_:_:_:):Scenery.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "-_itemLayer.size.width / 2 + cellSize / 2">
+            </PersistentString>
+            <PersistentString
+               value = "item.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AttackAttribute.on(unit:):AttackAttribute.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Spell.getDefRate(from:to:):Spell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(odef / atan(level)) / (from._unit._level * 3)">
+            </PersistentString>
+            <PersistentString
+               value = "atan(level)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Lighting.afterMove(completion:):Lighting.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_battle._curRole">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SKSpriteNode.yOriginal.getter:exts.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "size()">
+            </PersistentString>
+            <PersistentString
+               value = "size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Spell.fireDamage(_:):Spell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "to.getSpirit()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Attack.attack(completion:):Attack.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_damageValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.getAccuracy(t:):BUnit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_unit._extensions.accuracy">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIRandomScene.createItems(start:end:):UIRandomScene.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Stage.move(_:):Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_to">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.faceEast():BUnit.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TurnAttack.cast(completion:):TurnAttack.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "t._status">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Character.removeProp(p:):Character.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_props">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Stage.touchesBegan(_:with:):Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_scene.size()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpellPanel.touchesBegan(_:with:):SpellPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_lastSelectedRoleSC">
+            </PersistentString>
+            <PersistentString
+               value = "_role._spellsInuse.index(of: _lastSelectedRoleSC._spell)">
+            </PersistentString>
+            <PersistentString
+               value = "_role._spellsInuse">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Loot.getSacred():Loot.swift">
+      </ContextState>
+      <ContextState
+         contextName = "UIScene.hasNextScene():UIScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = " stage._scenes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.moveEnd():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance._char._shield is Faceless">
+            </PersistentString>
+            <PersistentString
+               value = "_rightRoles">
+            </PersistentString>
+            <PersistentString
+               value = "_round % 3">
+            </PersistentString>
+            <PersistentString
+               value = "_round">
+            </PersistentString>
+            <PersistentString
+               value = "_curRole._status">
+            </PersistentString>
+            <PersistentString
+               value = "_curRole._unit.isMainChar">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in HealOfFlower.afterMove(completion:):FlowerOfHeal.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "su._last">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.create():ArmorPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_discardButton">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.createForStage():BUnit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_charNode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Spell.isAttackTurned(t:completion:):Spell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "t.hasStatus(type: Status.TURN_ATTACK)">
+            </PersistentString>
+            <PersistentString
+               value = "t._status">
+            </PersistentString>
+            <PersistentString
+               value = "_battle._rightRoles">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.createArmorsList():ArmorPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_char._props">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIStage.move():UIStage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;evil\(curX + 1)&quot;">
+            </PersistentString>
+            <PersistentString
+               value = "_curScene.xSize">
+            </PersistentString>
+            <PersistentString
+               value = "_curScene.curX">
+            </PersistentString>
+            <PersistentString
+               value = "scene">
+            </PersistentString>
+            <PersistentString
+               value = "_curScene._ground.childNode(withName: &quot;evil12&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameScene.touchesBegan(_:with:):GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "step">
+            </PersistentString>
+            <PersistentString
+               value = "2 / 3">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.moveBack(unit:completion:):Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "-(unit.position.y - oPos[1])">
+            </PersistentString>
+            <PersistentString
+               value = "unit.position.x - oPos[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.isRoleBlocked():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_left">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIScene.getItemByName(name:):UIScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_ground.childNode(withName: &quot;item142&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MinionsHousePanel.touchesBegan(_:with:):MinionsHousePanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_char._storedMinions.count">
+            </PersistentString>
+            <PersistentString
+               value = "max">
+            </PersistentString>
+            <PersistentString
+               value = "_char._setting[Character.MAX_MINIONS_COUNT] as! Int">
+            </PersistentString>
+            <PersistentString
+               value = "Character.MAX_MINIONS_COUNT">
+            </PersistentString>
+            <PersistentString
+               value = "_char._setting[&quot;maxMinionsCount&quot;] as! Int">
+            </PersistentString>
+            <PersistentString
+               value = "_char._setting">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.createAI():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_selectedSpell">
+            </PersistentString>
+            <PersistentString
+               value = "_selectedTarget">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Stage.findNextBlock():Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "calFaceDirection(_targetX, _targetY)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BorderSets.init(border:corner:):BorderSets.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "border.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Spell.physicalDamage(_:):Spell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "to._unit._level">
+            </PersistentString>
+            <PersistentString
+               value = "(to.getDefence(t:from._unit) - to._unit._level / atan(to._unit._level))">
+            </PersistentString>
+            <PersistentString
+               value = "atan(to._unit._level)">
+            </PersistentString>
+            <PersistentString
+               value = "to.getDefence(t:from._unit) - to._unit._level">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Spell.hadSpecialAction(t:completion:):Spell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.hasStatus(type:):BUnit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_status">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Battle.moveStart():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "this._curRole">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.createOrder():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curRole">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.getMind(target:):BUnit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance.stage._scenes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharInfo.init(texture:color:size:):CharInfo.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance.stage._curScene">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CenterVillage.triggerEvent(pos:):CenterVillage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "childNode(withName: &quot;pos14&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.addStatus(status:):BUnit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_status">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UICell.place(parent:x:y:):UICell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_matrix">
+            </PersistentString>
+            <PersistentString
+               value = "parent._matrix">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BUnit.hpChange(value:):BUnit.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_unit._extensions.hp">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Stage.northBlocks():Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "-top">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.execOrder():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_selectedTarget">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.createArmorsPanel():ArmorPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_char._weapon">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SmallRoom.create():SmallRoom.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_ground">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIItem.setTexture(_:):UIItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "texture.size()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Pot.touchesBegan(_:with:):Pot.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "touches">
+            </PersistentString>
+            <PersistentString
+               value = "parent">
+            </PersistentString>
+            <PersistentString
+               value = "self">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameScene.didMove(to:):GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mask">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.weaponOff(w:):ArmorPanel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Data.loadTexture(completion:):Const.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "village">
+            </PersistentString>
+            <PersistentString
+               value = "Data.instance.outside_a4">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomScene.inPath(x:y:):RandomScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_path">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MinionsHousePanel.createStoredMinions():MinionsHousePanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_char._storedMinions[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorInfo.create(armor:):ArmorPanel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MagicMark.create(level:):MagicMark.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_spellGood.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIStage.hasTowerStatus(status:):UIStage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_scenes">
+            </PersistentString>
+            <PersistentString
+               value = "scn._status">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Scenery.putUnitOnGround(_:):Scenery.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Spell.setFrozen(target:completion:):Spell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Battle.findNextRole():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "unit._speed">
+            </PersistentString>
+            <PersistentString
+               value = "unit.getSpeed()">
+            </PersistentString>
+            <PersistentString
+               value = "_speedLine">
+            </PersistentString>
+            <PersistentString
+               value = "unit._unit._name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.touchesBegan(_:with:):Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_summonUnits.values">
+            </PersistentString>
+            <PersistentString
+               value = "_left">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomScene.init(texture:color:size:):RandomScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance.inside_a5">
+            </PersistentString>
+            <PersistentString
+               value = "cellSize * x.toFloat()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.touchesBegan(_:with:):ArmorPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_char._props">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Scenery.next(_:):Scenery.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "size">
+            </PersistentString>
+            <PersistentString
+               value = "_matrix">
+            </PersistentString>
+            <PersistentString
+               value = "Position">
+            </PersistentString>
+            <PersistentString
+               value = "size.height / 2 - 144">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DungeonListPanel.create():CenterVillage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance._char._dungeonLevel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CharInfo.create(char:):RoleInfoPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance.stage._scenes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Battle.touchesBegan(_:with:):Battle.swift">
+      </ContextState>
+      <ContextState
+         contextName = "UICell.canPlace(scene:x:y:):UICell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scene.getWeight(itemX, itemY)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Battle.showSummonableSeats(selectAll:):Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_left">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemInfo.create(item:):ArmorPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "item._description.count">
+            </PersistentString>
+            <PersistentString
+               value = "d.startIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectImage.create():SelectImage.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ArmorInfo.create(armor:):ArmorInfo.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "armor._description.isEmpty">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in SealScroll.use(unit:completion:):Item.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "this._battle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpellPanel.showSelectableSpells():SpellPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curPage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Stage.init(texture:color:size:):Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIScreen.main.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EvilCard.init(unit:):EvilCard.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Data.instance">
+            </PersistentString>
+            <PersistentString
+               value = "toTop(6)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RoleSelectPanel.loadStage(char:):RoleSelectPanel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.parent">
+            </PersistentString>
+            <PersistentString
+               value = "scene">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CreationFlow.createChar():CreationFlow.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Battle.roundStart():Battle.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curRole">
+            </PersistentString>
+            <PersistentString
+               value = "_right">
+            </PersistentString>
+            <PersistentString
+               value = "_selectedTarget">
+            </PersistentString>
+            <PersistentString
+               value = "_left">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Agility.on(unit:):Agility.swift">
+      </ContextState>
+      <ContextState
+         contextName = "UIStage.isNextEvil():UIStage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curScene.position.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ArmorPanel.armorOn(armor:):ArmorPanel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SKSpriteNode.getTextureCell(_:_:_:):exts.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "toTop(y)">
+            </PersistentString>
+            <PersistentString
+               value = "cellSize / w">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Stage.move2(_:):Stage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "destination.x * cellSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DungeonListPanel.touchesBegan(_:with:):CenterVillage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_curPage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
