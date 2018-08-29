@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		090FBB3D20D93B8000127508 /* BaseStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FBB3C20D93B8000127508 /* BaseStage.swift */; };
+		091269092136DFB000D95368 /* Nature.png in Resources */ = {isa = PBXBuildFile; fileRef = 091269082136DFAF00D95368 /* Nature.png */; };
+		0912690B2136E31200D95368 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 0912690A2136E31100D95368 /* select.png */; };
 		0915AA4720233D4D0030A5D6 /* Bed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915AA4620233D4D0030A5D6 /* Bed.swift */; };
 		0915D5F2203184C400D21B55 /* SmallRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915D5F1203184C400D21B55 /* SmallRoom.swift */; };
 		0915D5F420329C8E00D21B55 /* BorderSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915D5F320329C8E00D21B55 /* BorderSets.swift */; };
@@ -176,7 +178,6 @@
 		099050DB209EB7FB00428EF9 /* BItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099050DA209EB7FB00428EF9 /* BItem.swift */; };
 		099050DD20A0230400428EF9 /* People1.png in Resources */ = {isa = PBXBuildFile; fileRef = 099050DC20A0230300428EF9 /* People1.png */; };
 		099050DF20A0760200428EF9 /* UIPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099050DE20A0760200428EF9 /* UIPanel.swift */; };
-		099050E120A082C300428EF9 /* Nature.png in Resources */ = {isa = PBXBuildFile; fileRef = 099050E020A082C300428EF9 /* Nature.png */; };
 		099050E320A085BF00428EF9 /* LostForest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099050E220A085BF00428EF9 /* LostForest.swift */; };
 		099050E520A086B600428EF9 /* Evil.png in Resources */ = {isa = PBXBuildFile; fileRef = 099050E420A086B600428EF9 /* Evil.png */; };
 		099050E720A087BB00428EF9 /* Disappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099050E620A087BB00428EF9 /* Disappear.swift */; };
@@ -201,7 +202,6 @@
 		09A33992201F5E4600DD1ABF /* UICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A33991201F5E4600DD1ABF /* UICell.swift */; };
 		09A33994201F642000DD1ABF /* Pot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A33993201F642000DD1ABF /* Pot.swift */; };
 		09B7F12D2065F8A100B5DD54 /* Heal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7F12C2065F8A100B5DD54 /* Heal.swift */; };
-		09B7F12F2066279900B5DD54 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B7F12E2066279900B5DD54 /* select.png */; };
 		09B7F1322066353400B5DD54 /* Auro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7F1312066353400B5DD54 /* Auro.swift */; };
 		09B7F1342066374700B5DD54 /* Lighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7F1332066374700B5DD54 /* Lighting.swift */; };
 		09B7F1372067BF3600B5DD54 /* Prop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7F1362067BF3600B5DD54 /* Prop.swift */; };
@@ -360,6 +360,8 @@
 
 /* Begin PBXFileReference section */
 		090FBB3C20D93B8000127508 /* BaseStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStage.swift; sourceTree = "<group>"; };
+		091269082136DFAF00D95368 /* Nature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nature.png; path = ../../../../../Downloads/minions/Nature.png; sourceTree = "<group>"; };
+		0912690A2136E31100D95368 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../../../Desktop/project/TheWitchNight/TheWitchNight/assets/select.png; sourceTree = "<group>"; };
 		0915AA4620233D4D0030A5D6 /* Bed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bed.swift; sourceTree = "<group>"; };
 		0915D5F1203184C400D21B55 /* SmallRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallRoom.swift; sourceTree = "<group>"; };
 		0915D5F320329C8E00D21B55 /* BorderSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderSets.swift; sourceTree = "<group>"; };
@@ -534,7 +536,6 @@
 		099050DA209EB7FB00428EF9 /* BItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BItem.swift; sourceTree = "<group>"; };
 		099050DC20A0230300428EF9 /* People1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = People1.png; sourceTree = "<group>"; };
 		099050DE20A0760200428EF9 /* UIPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPanel.swift; sourceTree = "<group>"; };
-		099050E020A082C300428EF9 /* Nature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nature.png; path = ../../../../../../Downloads/minions/Nature.png; sourceTree = "<group>"; };
 		099050E220A085BF00428EF9 /* LostForest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostForest.swift; sourceTree = "<group>"; };
 		099050E420A086B600428EF9 /* Evil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Evil.png; sourceTree = "<group>"; };
 		099050E620A087BB00428EF9 /* Disappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disappear.swift; sourceTree = "<group>"; };
@@ -559,7 +560,6 @@
 		09A33991201F5E4600DD1ABF /* UICell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICell.swift; sourceTree = "<group>"; };
 		09A33993201F642000DD1ABF /* Pot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pot.swift; sourceTree = "<group>"; };
 		09B7F12C2065F8A100B5DD54 /* Heal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heal.swift; sourceTree = "<group>"; };
-		09B7F12E2066279900B5DD54 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../../../../Downloads/select.png; sourceTree = "<group>"; };
 		09B7F1312066353400B5DD54 /* Auro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auro.swift; sourceTree = "<group>"; };
 		09B7F1332066374700B5DD54 /* Lighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighting.swift; sourceTree = "<group>"; };
 		09B7F1362067BF3600B5DD54 /* Prop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prop.swift; sourceTree = "<group>"; };
@@ -838,11 +838,11 @@
 				094426312014CB50003809EA /* maps */,
 				094426182012F756003809EA /* font.ttf */,
 				098FA2F8206FDD3F00C3CB6C /* village.tiff */,
+				0912690A2136E31100D95368 /* select.png */,
 				09DF15132012399400CD5EBD /* card.png */,
 				0915D5F720331BFE00D21B55 /* sha.png */,
 				09D9793720405F33006E3E88 /* wall_deep.png */,
 				09D9793120405C93006E3E88 /* sha2.png */,
-				09B7F12E2066279900B5DD54 /* select.png */,
 				09D9793020405C93006E3E88 /* sha3.png */,
 				0921670F200E291300A6B229 /* role.png */,
 			);
@@ -1409,11 +1409,11 @@
 				09C94B9E2098498F0007AC9D /* Collabo8_2.png */,
 				099050EF20A09B7F00428EF9 /* Collabo8_1.png */,
 				099050F720A15CA200428EF9 /* HellBaron.png */,
-				099050E020A082C300428EF9 /* Nature.png */,
 				099050E420A086B600428EF9 /* Evil.png */,
 				099050DC20A0230300428EF9 /* People1.png */,
 				099050ED20A099E600428EF9 /* BALDO.png */,
 				099050FD20A2E9D800428EF9 /* ALL.png */,
+				091269082136DFAF00D95368 /* Nature.png */,
 				0923319320FAFA1F00436F77 /* 13000013.png */,
 				099050F520A15B1300428EF9 /* Kodagu.png */,
 				0990510520A317B800428EF9 /* Actor1.png */,
@@ -1578,6 +1578,7 @@
 				0919CF5C2025A6F9005EB1FF /* World_A1.png in Resources */,
 				098FA2F9206FDD3F00C3CB6C /* village.tiff in Resources */,
 				09D9793320405C93006E3E88 /* sha3.png in Resources */,
+				0912690B2136E31200D95368 /* select.png in Resources */,
 				0919CF672025A6F9005EB1FF /* SF_Outside_A4.png in Resources */,
 				0919CF6B2025A6F9005EB1FF /* SF_Inside_C.png in Resources */,
 				09D9793820405F33006E3E88 /* wall_deep.png in Resources */,
@@ -1594,7 +1595,6 @@
 				0919CF522025A6F9005EB1FF /* Dungeon_A5.png in Resources */,
 				09DF150C201234B100CD5EBD /* GameScene.sks in Resources */,
 				0944264A2014CB51003809EA /* 9.png in Resources */,
-				099050E120A082C300428EF9 /* Nature.png in Resources */,
 				09F2F2C0206F9EA500A11BB8 /* TileE-InnerTown.png in Resources */,
 				0944264E2014CB51003809EA /* 5.png in Resources */,
 				099050F020A09B8000428EF9 /* Collabo8_1.png in Resources */,
@@ -1603,6 +1603,7 @@
 				0915D5F820331BFE00D21B55 /* sha.png in Resources */,
 				0923319420FAFA1F00436F77 /* 13000013.png in Resources */,
 				0960B5FD20A329AC0063256E /* AdventurersUnion.png in Resources */,
+				091269092136DFB000D95368 /* Nature.png in Resources */,
 				099050F820A15CA200428EF9 /* HellBaron.png in Resources */,
 				099050F620A15B1300428EF9 /* Kodagu.png in Resources */,
 				0919CF692025A6F9005EB1FF /* Outside_A1.png in Resources */,
@@ -1616,7 +1617,6 @@
 				09161EE22018D30F006E029F /* 7x7.png in Resources */,
 				099050F220A14F8F00428EF9 /* CenterVillage.png in Resources */,
 				0919CF5F2025A6F9005EB1FF /* SF_Outside_B.png in Resources */,
-				09B7F12F2066279900B5DD54 /* select.png in Resources */,
 				099050FE20A2E9D800428EF9 /* ALL.png in Resources */,
 				0944264F2014CB51003809EA /* 7.png in Resources */,
 				0919CF642025A6F9005EB1FF /* Outside_A2.png in Resources */,
@@ -2091,12 +2091,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DWG8SW45K5;
 				INFOPLIST_FILE = TheWitchNight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cris.TheWitchNight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2107,12 +2110,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DWG8SW45K5;
 				INFOPLIST_FILE = TheWitchNight/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cris.TheWitchNight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

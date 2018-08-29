@@ -15,6 +15,9 @@ class SpellPanel:SKSpriteNode {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touchPoint = touches.first?.location(in: self)
         _curInfoPanel.removeFromParent()
+        if _curInfoPanel.contains(touchPoint!) {
+            return
+        }
         if _nextButton.contains(touchPoint!) {
             let size = Data.instance._char._spells.count / _pageSize
             if size > _curPage - 1 {
@@ -22,15 +25,21 @@ class SpellPanel:SKSpriteNode {
                 _curPage += 1
                 showSelectableSpells()
             }
-        } else if _prevButton.contains(touchPoint!) {
+            return
+        }
+        if _prevButton.contains(touchPoint!) {
             if _curPage > 1 {
                 _spellsBox.removeAllChildren()
                 _curPage -= 1
                 showSelectableSpells()
             }
-        } else if _closeButton.contains(touchPoint!) {
+            return
+        }
+        if _closeButton.contains(touchPoint!) {
             close()
-        } else if _lastSelectedSC.contains(touchPoint!) {
+            return
+        }
+        if _lastSelectedSC.contains(touchPoint!) {
             _lastSelectedRoleSC.selected = false
             if _lastSelectedSC.selected {
                 if _role._spellsInuse.count < _role._spellCount {
@@ -53,7 +62,9 @@ class SpellPanel:SKSpriteNode {
                 _lastSelectedSC.selected = true
                 showInfo(sc: _lastSelectedSC)
             }
-        } else if _lastSelectedRoleSC.contains(touchPoint!) {
+            return
+        }
+        if _lastSelectedRoleSC.contains(touchPoint!) {
             _lastSelectedSC.selected = false
             if _lastSelectedRoleSC.selected {
                 let index = _role._spellsInuse.index(of: _lastSelectedRoleSC._spell)
@@ -68,26 +79,24 @@ class SpellPanel:SKSpriteNode {
                 _lastSelectedRoleSC.selected = true
                 showInfo(sc: _lastSelectedRoleSC)
             }
-        } else {
-            _lastSelectedRoleSC.selected = false
-            _lastSelectedSC.selected = false
-            for sc in _roleSpellComponents {
-                if sc.contains(touchPoint!) {
-                    _lastSelectedRoleSC.selected = false
-                    sc.selected = true
-                    _lastSelectedRoleSC = sc
-                    showInfo(sc:sc)
-//                    _descLabel.text = "[\(sc._spell._name)] \(sc._spell._description)"
-                }
+            return
+        }
+        _lastSelectedRoleSC.selected = false
+        _lastSelectedSC.selected = false
+        for sc in _roleSpellComponents {
+            if sc.contains(touchPoint!) {
+                sc.selected = true
+                _lastSelectedRoleSC = sc
+                showInfo(sc:sc)
+                //                    _descLabel.text = "[\(sc._spell._name)] \(sc._spell._description)"
             }
-            for sc in _curPageSpells {
-                if sc.contains(touchPoint!) {
-                    _lastSelectedSC.selected = false
-                    sc.selected = true
-                    _lastSelectedSC = sc
-                    showInfo(sc:sc)
-//                    _descLabel.text = "[\(sc._spell._name)] \(sc._spell._description)"
-                }
+        }
+        for sc in _curPageSpells {
+            if sc.contains(touchPoint!) {
+                sc.selected = true
+                _lastSelectedSC = sc
+                showInfo(sc:sc)
+                //                    _descLabel.text = "[\(sc._spell._name)] \(sc._spell._description)"
             }
         }
         
@@ -310,7 +319,11 @@ class SpellPanel:SKSpriteNode {
         let si = SpellInfo()
         si.create(spell: sc._spell)
         si.position.x = sc.position.x + cellSize * 0.5 + 5
-        si.position.y = sc.position.y + cellSize * 0.5
+        if sc.position.y < 0 {
+            si.position.y = sc.position.y + si._bgHeight - cellSize * 0.5
+        } else {
+            si.position.y = sc.position.y + cellSize * 0.5
+        }
         if sc.position.x > cellSize * 4 {
             si.position.x = sc.position.x - si._width
         }
@@ -347,10 +360,10 @@ class SpellComponent:SKSpriteNode {
     var selected:Bool {
         set {
             if newValue {
-                _bg.strokeColor = Data.SELECTED_HIGHLIGH_COLOR
+//                _bg.strokeColor = Data.SELECTED_HIGHLIGH_COLOR
                 _bg.lineWidth = 2
             } else {
-                _bg.strokeColor = QualityColor.getColor(_spell._quality)
+//                _bg.strokeColor = QualityColor.getColor(_spell._quality)
                 _bg.lineWidth = 1
             }
             _select = newValue
