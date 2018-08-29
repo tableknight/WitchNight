@@ -11,7 +11,6 @@ class MinionsList:UIPanel {
     override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)
         isUserInteractionEnabled = true
-        self.zPosition = UIStage.PANEL_LAYER
 //        let bg = SKSpriteNode()
 //        bg.size = CGSize(width: Data.instance.screenWidth, height: Data.instance.screenHeight)
 //        bg.color = UIColor.darkGray
@@ -60,7 +59,7 @@ class MinionsList:UIPanel {
         super.init(coder: aDecoder)
     }
     
-    override func createBg() {
+    override func createPanelbackground() {
         let b = CGRect(x: -cellSize * 6.5, y: -cellSize * 3, width: cellSize * 13, height: cellSize * 6)
         let bg = SKShapeNode(rect: b, cornerRadius: 4)
         bg.fillColor = UIColor.black

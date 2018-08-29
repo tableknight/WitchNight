@@ -236,7 +236,7 @@ class DealingPanel:UIPanel {
     }
     
     private var _bg2 = SKShapeNode()
-    override func createBg() {
+    override func createPanelbackground() {
         let b = CGRect(x: -cellSize * 6, y: -cellSize * 3, width: cellSize * 5.5, height: cellSize * 6)
         let bg = SKShapeNode(rect: b, cornerRadius: 4)
         bg.fillColor = UIColor.black

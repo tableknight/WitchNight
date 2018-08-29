@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		090FBB3D20D93B8000127508 /* BaseStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FBB3C20D93B8000127508 /* BaseStage.swift */; };
 		091269092136DFB000D95368 /* Nature.png in Resources */ = {isa = PBXBuildFile; fileRef = 091269082136DFAF00D95368 /* Nature.png */; };
-		0912690B2136E31200D95368 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 0912690A2136E31100D95368 /* select.png */; };
+		0912690D2136E71100D95368 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 0912690C2136E71100D95368 /* select.png */; };
 		0915AA4720233D4D0030A5D6 /* Bed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915AA4620233D4D0030A5D6 /* Bed.swift */; };
 		0915D5F2203184C400D21B55 /* SmallRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915D5F1203184C400D21B55 /* SmallRoom.swift */; };
 		0915D5F420329C8E00D21B55 /* BorderSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915D5F320329C8E00D21B55 /* BorderSets.swift */; };
@@ -361,7 +361,7 @@
 /* Begin PBXFileReference section */
 		090FBB3C20D93B8000127508 /* BaseStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStage.swift; sourceTree = "<group>"; };
 		091269082136DFAF00D95368 /* Nature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nature.png; path = ../../../../../Downloads/minions/Nature.png; sourceTree = "<group>"; };
-		0912690A2136E31100D95368 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../../../Desktop/project/TheWitchNight/TheWitchNight/assets/select.png; sourceTree = "<group>"; };
+		0912690C2136E71100D95368 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../../../Downloads/select.png; sourceTree = "<group>"; };
 		0915AA4620233D4D0030A5D6 /* Bed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bed.swift; sourceTree = "<group>"; };
 		0915D5F1203184C400D21B55 /* SmallRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallRoom.swift; sourceTree = "<group>"; };
 		0915D5F320329C8E00D21B55 /* BorderSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderSets.swift; sourceTree = "<group>"; };
@@ -838,10 +838,10 @@
 				094426312014CB50003809EA /* maps */,
 				094426182012F756003809EA /* font.ttf */,
 				098FA2F8206FDD3F00C3CB6C /* village.tiff */,
-				0912690A2136E31100D95368 /* select.png */,
 				09DF15132012399400CD5EBD /* card.png */,
 				0915D5F720331BFE00D21B55 /* sha.png */,
 				09D9793720405F33006E3E88 /* wall_deep.png */,
+				0912690C2136E71100D95368 /* select.png */,
 				09D9793120405C93006E3E88 /* sha2.png */,
 				09D9793020405C93006E3E88 /* sha3.png */,
 				0921670F200E291300A6B229 /* role.png */,
@@ -1578,7 +1578,6 @@
 				0919CF5C2025A6F9005EB1FF /* World_A1.png in Resources */,
 				098FA2F9206FDD3F00C3CB6C /* village.tiff in Resources */,
 				09D9793320405C93006E3E88 /* sha3.png in Resources */,
-				0912690B2136E31200D95368 /* select.png in Resources */,
 				0919CF672025A6F9005EB1FF /* SF_Outside_A4.png in Resources */,
 				0919CF6B2025A6F9005EB1FF /* SF_Inside_C.png in Resources */,
 				09D9793820405F33006E3E88 /* wall_deep.png in Resources */,
@@ -1656,6 +1655,7 @@
 				099050E520A086B600428EF9 /* Evil.png in Resources */,
 				0919CF612025A6F9005EB1FF /* Inside_A2.png in Resources */,
 				09DF15142012399400CD5EBD /* card.png in Resources */,
+				0912690D2136E71100D95368 /* select.png in Resources */,
 				0919CF5D2025A6F9005EB1FF /* World_A2.png in Resources */,
 				099050DD20A0230400428EF9 /* People1.png in Resources */,
 				0919CF592025A6F9005EB1FF /* Outside_A5.png in Resources */,

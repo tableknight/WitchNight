@@ -11,13 +11,13 @@
 
 import SpriteKit
 
-class SpellPanel:SKSpriteNode {
+class SpellPanel:UIPanel {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touchPoint = touches.first?.location(in: self)
         _curInfoPanel.removeFromParent()
-        if _curInfoPanel.contains(touchPoint!) {
-            return
-        }
+//        if _curInfoPanel.contains(touchPoint!) && contains(_curInfoPanel) {
+//            return
+//        }
         if _nextButton.contains(touchPoint!) {
             let size = Data.instance._char._spells.count / _pageSize
             if size > _curPage - 1 {
@@ -39,7 +39,7 @@ class SpellPanel:SKSpriteNode {
             close()
             return
         }
-        if _lastSelectedSC.contains(touchPoint!) {
+        if _lastSelectedSC.contains(touchPoint!) && _spellsBox.contains(_lastSelectedSC) {
             _lastSelectedRoleSC.selected = false
             if _lastSelectedSC.selected {
                 if _role._spellsInuse.count < _role._spellCount {
@@ -64,7 +64,7 @@ class SpellPanel:SKSpriteNode {
             }
             return
         }
-        if _lastSelectedRoleSC.contains(touchPoint!) {
+        if _lastSelectedRoleSC.contains(touchPoint!) && _roleSpells.contains(_lastSelectedRoleSC) {
             _lastSelectedSC.selected = false
             if _lastSelectedRoleSC.selected {
                 let index = _role._spellsInuse.index(of: _lastSelectedRoleSC._spell)
@@ -88,6 +88,7 @@ class SpellPanel:SKSpriteNode {
                 sc.selected = true
                 _lastSelectedRoleSC = sc
                 showInfo(sc:sc)
+                break
                 //                    _descLabel.text = "[\(sc._spell._name)] \(sc._spell._description)"
             }
         }
@@ -96,6 +97,7 @@ class SpellPanel:SKSpriteNode {
                 sc.selected = true
                 _lastSelectedSC = sc
                 showInfo(sc:sc)
+                break
                 //                    _descLabel.text = "[\(sc._spell._name)] \(sc._spell._description)"
             }
         }
@@ -103,19 +105,25 @@ class SpellPanel:SKSpriteNode {
     }
     override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)
-        zPosition = UIStage.PANEL_LAYER
+//        zPosition = UIStage.PANEL_LAYER
 //        self.size = CGSize(width: cellSize, height: cellSize)
         let roleBox = SKShapeNode(rect: CGRect(origin: CGPoint(x: -cellSize * 6.5, y: cellSize), size: CGSize(width: cellSize * 13.25, height: cellSize * 2)), cornerRadius: 4 )
         roleBox.fillColor = UIColor.black
+        roleBox.zPosition = self.zPosition + 2
         addChild(roleBox)
         
         let spellBox = SKShapeNode(rect: CGRect(origin: CGPoint(x: -cellSize * 6.5, y: -cellSize * 3), size: CGSize(width: cellSize * 13.25, height: cellSize * 3.75)), cornerRadius: 4 )
         spellBox.fillColor = UIColor.black
+        spellBox.zPosition = self.zPosition + 2
         addChild(spellBox)
 //        let bg = SKShapeNode(rect: CGRect(origin: CGPoint(x: -cellSize * 0.5, y: -cellSize * 0.5), size: self.size), cornerRadius: 4 )
 //        bg.fillColor = UIColor.black
 //        addChild(bg)
         isUserInteractionEnabled = true
+        
+    }
+    override func createPanelbackground() {
+        
     }
 //    private var _spellBox
     var _role:Creature!
@@ -178,6 +186,7 @@ class SpellPanel:SKSpriteNode {
 //        sc.position.y = startY
 //        addChild(sc)
         _closeButton = Button()
+        _closeButton.zPosition = self.zPosition + 2
         _closeButton.text = "关闭"
         _closeButton.position.y = Data.instance.screenHeight * 0.5 - cellSize * 0.5 + 5
         _closeButton.position.x = cellSize * 5.75
@@ -214,14 +223,14 @@ class SpellPanel:SKSpriteNode {
         let avatar = SKSpriteNode()
         avatar.texture = role._img.getCell(1, 0)
         avatar.size = CGSize(width: cellSize * 0.75, height: cellSize * 0.75)
-        
-        
+        avatar.zPosition = self.zPosition + 2
         avatar.position.x = -cellSize * 6.125
         avatar.position.y = Data.instance.screenHeight * 0.5 - cellSize * 0.5 + 5
         let abg = SKShapeNode(rect: CGRect(x: avatar.position.x - cellSize * 0.375, y: avatar.position.y - cellSize * 0.375, width: cellSize * 0.75, height: cellSize * 0.75), cornerRadius: 2)
         abg.fillColor = UIColor.black
         
         let lv = Label()
+        lv.zPosition = self.zPosition + 2
         lv.align = "left"
         lv.position.x = avatar.position.x + cellSize * 0.5
         lv.position.y = avatar.position.y - cellSize * 0.35
@@ -233,9 +242,6 @@ class SpellPanel:SKSpriteNode {
         addChild(abg)
         addChild(avatar)
     }
-    private var _closeButton:Button!
-    private var _nextButton = Button()
-    private var _prevButton = Button()
     private var _descLabel:Label!
     private var _roleSpellComponents = Array<SpellComponent>()
     private func showRoleSpells() {
@@ -250,6 +256,7 @@ class SpellPanel:SKSpriteNode {
                 sc.setSpell(s: siu[i])
                 sc.position.y = startY
                 sc.position.x = startX + cellSize * 1.25 * x.toFloat()
+                sc.zPosition = self.zPosition + 3
                 _roleSpells.addChild(sc)
                 _roleSpellComponents.append(sc)
             }
@@ -278,6 +285,7 @@ class SpellPanel:SKSpriteNode {
                 sc.setSpell(s: spells[i])
                 sc.position.y = startY - cellSize * 1.5 * y.toFloat()
                 sc.position.x = startX + cellSize * 1.25 * x.toFloat()
+                sc.zPosition = self.zPosition + 3
                 _spellsBox.addChild(sc)
                 _curPageSpells.append(sc)
             }
@@ -296,12 +304,14 @@ class SpellPanel:SKSpriteNode {
         _nextButton.text = "下一页"
         _nextButton.position.y = -_closeButton.position.y
         _nextButton.position.x = _closeButton.position.x
+        _nextButton.zPosition = self.zPosition + 2
         addChild(_nextButton)
         
         _prevButton = Button()
         _prevButton.text = "上一页"
         _prevButton.position.y = -_closeButton.position.y
         _prevButton.position.x = _nextButton.position.x - cellSize * 2.25
+        _prevButton.zPosition = self.zPosition + 2
         addChild(_prevButton)
     }
     private func pageReload() {
@@ -378,7 +388,7 @@ class SpellComponent:SKSpriteNode {
 class SpellInfo:SKSpriteNode {
     override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)
-        zPosition = UIStage.PANEL_LAYER
+        zPosition = UIStage.PANEL_LAYER + 4
         //        self.size = CGSize(width: cellSize, height: cellSize)
         
     }

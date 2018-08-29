@@ -15,24 +15,30 @@ class UIPanel:SKSpriteNode {
         zPosition = UIStage.PANEL_LAYER
         //
         //        let s = Data.instance.stage
-        createBg()
+        createPanelbackground()
         
-        let _mask = Data.createMask()
-        _mask.zPosition = self.zPosition + 1
-        addChild(_mask)
+        createMask()
         
+        createLabel()
+    }
+    internal func createLabel() {
         let t = Label()
         t.align = "left"
         t.fontSize = 16
-//        t.text = "传送：再次点击已选择的层数。"
+        //        t.text = "传送：再次点击已选择的层数。"
         t.position.x = -cellSize * 6
         t.position.y = cellSize * 3 + 8
         t.zPosition = self.zPosition + 2
         addChild(t)
         _label = t
     }
+    internal func createMask() {
+        let _mask = Data.createMask()
+        _mask.zPosition = self.zPosition + 1
+        addChild(_mask)
+    }
     
-    internal func createBg() {
+    internal func createPanelbackground() {
         let b = CGRect(x: -cellSize * 6, y: -cellSize * 3, width: cellSize * 12, height: cellSize * 6)
         let bg = SKShapeNode(rect: b, cornerRadius: 4)
         bg.fillColor = UIColor.black
